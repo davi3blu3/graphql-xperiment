@@ -1,8 +1,37 @@
 {
   "users": [
-    { "id": "23", "firstName": "Bill", "lastName": "Rogers", "age": 20 },
-    { "id": "40", "firstName": "Alex", "lastName": "Lynch", "age": 33 },
-    { "id": "47", "firstName": "Samantha", "lastName": "Green", "age": 22 },
-    { "id": "51", "firstName": "Susan", "lastName": "Spencer", "age": 36 }
+    {
+      "id": "23",
+      "firstName": "Bill",
+      "lastName": "Rogers",
+      "age": 20,
+      "companyId": "1"
+    },
+    {
+      "id": "40",
+      "firstName": "Alex",
+      "lastName": "Lynch",
+      "age": 33,
+      "companyId": "2"
+    },
+    {
+      "id": "47",
+      "firstName": "Samantha",
+      "lastName": "Green",
+      "age": 22,
+      "companyId": "3"
+    },
+    {
+      "id": "51",
+      "firstName": "Mary",
+      "lastName": "Spencer",
+      "age": 36,
+      "companyId": "1"
+    }
+  ],
+  "companies": [
+    { "id": "1", "name": "Apple", "description": "computing devices" },
+    { "id": "2", "name": "Google", "description": "web search" },
+    { "id": "3", "name": "Amazon", "description": "e-commerce" }
   ]
 }
